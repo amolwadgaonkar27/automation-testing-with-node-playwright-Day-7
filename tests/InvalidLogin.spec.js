@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 const { LoginPage } = require('../pages/LoginPage');
 const { InventoryPage } = require('../pages/InventoryPage');
 
-const loginData = require('../testData/loginData.json');
+const loginData = require('../testData/LoginData.json');
 
 test.describe('SauceDemo Login Tests', () => {
 

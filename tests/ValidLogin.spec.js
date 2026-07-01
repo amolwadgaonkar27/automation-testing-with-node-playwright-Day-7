@@ -1,4 +1,4 @@
-const { test, expect } = require('../fixtures/loginFixture');
+const { test, expect } = require('../fixtures/LoginFixture');
 const { InventoryPage } = require('../pages/InventoryPage');
 
 test.describe('SauceDemo Valid Login Tests', () => {
