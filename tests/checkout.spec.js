@@ -4,7 +4,7 @@ const { InventoryPage } = require('../pages/InventoryPage');
 const { CartPage } = require('../pages/CartPage');
 const { CheckoutPage } = require('../pages/CheckoutPage');
 
-const checkoutData = require('../testData/checkoutData.json');
+const checkoutData = require('../testData/CheckoutData.json');
 
 test('Add product, checkout and validate order success', async ({ loggedInPage }) => {
 
